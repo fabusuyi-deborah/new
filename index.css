@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    max-width: 960px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ .nav-link{
+     padding-right: 32px;
+ }
+.wrapper {
+   background: #4C0C47;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 10px;
+   text-align: center;
+}
+
+
+h3{
+    text-align: center;
+    color: #ffffff;
+    font-size: 7px;
+}
+.section{
+    position: static;
+}
+.hero-section{
+    background: #4c0c5c;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+ .hero-section h5{
+     color: #ffffff;
+     text-align: center;
+     margin: 16px;
+ }
+ .icons{
+     color: #f1f1f1;
+     display: flex;
+     margin: 0 auto;
+     width: 80px;
+     justify-content: space-between;
+ }
+ .image-div{
+     width: 140px;
+     height: 140px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+ img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+ }
+ h5{
+     color: #f1f1f1;
+     font-size: small;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+ }
+ .section{
+     text-align: center;
+     padding: 15px;
+     display: grid;
+     gap: 20px;
+ }
+ .section h1{
+     font-size: large;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ .section p{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 15px;
+ }
+ .cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 64px;
+}
+
+ .card{
+     background-color: #f1f1f1;
+     padding: 8px 20px;
+     border-radius: 7px;
+
+
+}
+.project{
+    padding: 20px 0;
+}
+.project h1{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.project p{
+    text-align: center;
+    font-size: 15px;
+}
+.project-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    justify-items: center;
+    margin-top: 8px;
+}
+.project-cards a{
+    color: black;
+}
+.footer{
+    background-color: #4C0C47;
+    padding: 16px;
+
+}
+.footer h1{
+    text-align: center;
+    font-size: x-large ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 12px;
+}
+form{
+    max-width: 500px;
+    margin: auto;
+}
+input, textarea, button{
+    width: 100%; 
+    margin: 6px;
+    padding: 5px  16px;
+}
+.wrapper-2{
+    text-align: center;
+    color: white;
+}
